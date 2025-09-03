@@ -127,3 +127,9 @@ details summary{cursor:pointer;color:#C0C8D6;font-weight:700}
   box-shadow:0 0 20px rgba(58,95,205,.45);
   border-color:#24304a;
 }
+
+
+/* Brand: header logo + hero gradient */
+.logo img{height:42px;width:auto;display:block;filter:drop-shadow(0 2px 2px rgba(0,0,0,.4))}
+@media(min-width:900px){.logo img{height:48px}}
+.hero-metal{background:radial-gradient(1200px 400px at 50% -20%, rgba(58,95,205,.22), transparent)}
