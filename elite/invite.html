@@ -1,32 +1,39 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <title>Elite (Invite Only) · KickAss Home Automation</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/clgtech/assets/styles.css" />
-  <link rel="stylesheet" href="/clgtech/theme/styles.css" />
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Elite Invite · CLGTech</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/clgtech/theme/styles.css">
 </head>
-<body data-theme="dark">
-  <div id="site-header"></div>
+<body>
+<header class="sticky">
+  <div class="container navbar">
+    <div class="logo"><img src="/clgtech/assets/logo.png" alt="CLGTech Logo" style="height:40px"></div>
+    <nav>
+      <a href="/clgtech/">Home</a>
+      <a href="/clgtech/learn/">Learn</a>
+      <a href="/clgtech/ideas/">Ideas</a>
+      <a href="/clgtech/packages.html">Packages</a>
+      <a href="/clgtech/elderly/">Elderly Care</a>
+      <a href="/clgtech/case-studies/">Case Studies</a>
+      <a href="/clgtech/elite/">Elite Vault</a>
+      <a href="/clgtech/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
 
-  <main class="section"><div class="container">
-    <div class="kicker">Invite Only</div>
+<section class="section">
+  <div class="container">
     <h1>Elite (Invite Only)</h1>
-    <p class="lead">This area is curated for private projects and partner showcases.</p>
-    <p>Have a code? Enter it below to request access to invite-only materials and priority booking.</p>
-    <form class="card" onsubmit="event.preventDefault(); alert('Thanks! We\'ll route your request.');">
+    <p class="sublead">Enter your invitation code to request access to private materials and concierge scheduling.</p>
+    <form class="panel code-form" onsubmit="event.preventDefault(); alert('Thanks! We\'ll route your request.');">
       <label for="code">Invite Code</label><br/>
-      <input id="code" name="code" type="text" placeholder="Enter code" style="padding:.6rem 1rem; border-radius:10px; border:1px solid var(--border); width: min(420px, 100%);" />
-      <div class="cta-row"><button class="btn btn-primary" type="submit">Request Access</button></div>
+      <input id="code" name="code" type="text" placeholder="Enter code">
+      <div class="cta-row" style="margin-top:1rem"><button class="btn">Request Access</button></div>
     </form>
-    <p class="muted">No code? <a href="/clgtech/contact.html">Contact us</a> for a discreet consultation.</p>
-  </div></main>
+    <p class="muted">No code yet? <a href="/clgtech/contact.html">Contact us</a> for a discreet consultation.</p>
+  </div>
+</section>
 
-  <div id="site-footer"></div>
-  <script src="/clgtech/assets/nav-loader.js"></script>
-</body>
-</html>
+<footer>© CLGTech Home Automation</footer>
+</body></html>

@@ -76,3 +76,20 @@ details summary{cursor:pointer;color:#C0C8D6;font-weight:700}
 details{background:#11141A;border:1px solid #1C1F26;border-radius:12px;padding:1rem 1.25rem;margin:.75rem 0}
 details[open]{box-shadow:0 0 12px rgba(58,95,205,.3)}
 details summary{cursor:pointer;color:#C0C8D6;font-weight:700}
+
+
+/* Elite Vault Showcase */
+.showcase{display:grid;gap:2rem;margin-top:2rem}
+@media(min-width:900px){.showcase{grid-template-columns:repeat(3,1fr)}}
+.show-tile{position:relative;background:#0F1218;border:1px solid #1C1F26;border-radius:14px;overflow:hidden;box-shadow:0 4px 18px rgba(0,0,0,.6);transition:.35s}
+.show-tile:hover{transform:translateY(-6px);box-shadow:0 0 24px rgba(58,95,205,.45)}
+.show-body{padding:1.25rem 1.25rem 1.5rem}
+.show-title{font-family:'Bebas Neue',sans-serif;letter-spacing:.5px;margin:0 0 .25rem;color:#C0C8D6}
+.show-meta{font-size:.9rem;color:#9aa3b2;margin-bottom:.5rem}
+.hero-elite{padding:4rem 0;text-align:center;background:radial-gradient(1200px 400px at 50% -20%, rgba(58,95,205,.25), transparent);border-bottom:1px solid #1C1F26}
+.hero-elite h1{font-size:3rem}
+.divider{height:1px;background:linear-gradient(90deg, transparent, #1C1F26, transparent);margin:2rem 0}
+.concierge{display:grid;gap:2rem;margin-top:2.5rem}
+@media(min-width:760px){.concierge{grid-template-columns:2fr 1fr}}
+.panel{background:#11141A;border:1px solid #1C1F26;border-radius:14px;padding:2rem;box-shadow:0 4px 18px rgba(0,0,0,.6)}
+.code-form input{width:100%;padding:.7rem 1rem;border-radius:10px;border:1px solid #2a2f3a;background:#0F1218;color:#F0F2F8}
