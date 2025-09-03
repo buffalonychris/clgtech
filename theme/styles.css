@@ -130,8 +130,8 @@ details summary{cursor:pointer;color:#C0C8D6;font-weight:700}
 
 
 /* Brand: header logo + hero gradient */
-.logo img{height:42px;width:auto;display:block;filter:drop-shadow(0 2px 2px rgba(0,0,0,.4))}
-@media(min-width:900px){.logo img{height:48px}}
+.logo img{height:48px;width:auto;display:block;filter:drop-shadow(0 2px 2px rgba(0,0,0,.4))}
+@media(min-width:900px){.logo img{height:48px;width:auto;display:block;filter:drop-shadow(0 2px 2px rgba(0,0,0,.4))}}
 .hero-metal{background:radial-gradient(1200px 400px at 50% -20%, rgba(58,95,205,.22), transparent)}
 
 /* Learn & Ideas tile grid */
@@ -141,3 +141,11 @@ details summary{cursor:pointer;color:#C0C8D6;font-weight:700}
 .topic-card:hover{transform:translateY(-6px);box-shadow:0 0 20px rgba(58,95,205,.45);border-color:#24304a}
 .topic-card h3{margin:.25rem 0 .5rem}
 .small{font-size:.95rem;color:#C0C8D6}
+
+
+/* Center helper for hero headline and rotator */
+.center{ text-align:center; margin-left:auto; margin-right:auto; }
+.hero-rotator{ display:inline-block; text-align:center; }
+.hero-logo{ display:flex; justify-content:center; align-items:center; margin:1.2rem auto 0 auto; }
+.hero-logo img{ height:144px; width:auto; filter:drop-shadow(0 4px 8px rgba(0,0,0,.45)) }
+@media(min-width:900px){ .hero-logo img{ height:168px } }
