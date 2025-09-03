@@ -40,3 +40,39 @@ footer { padding:2rem 0; border-top:1px solid #1C1F26; text-align:center; color:
 details{background:#11141A;border:1px solid #1C1F26;border-radius:12px;padding:1rem 1.25rem;margin:.75rem 0}
 details[open]{box-shadow:0 0 12px rgba(58,95,205,.3)}
 details summary{cursor:pointer;color:#C0C8D6;font-weight:700}
+
+
+/* Elderly Care Bundles */
+.bundle-grid{display:grid;gap:2rem;margin-top:2rem}
+@media(min-width:760px){.bundle-grid{grid-template-columns:repeat(3,1fr)}}
+.bundle-card{background:#11141A;border:1px solid #1C1F26;border-radius:14px;padding:2rem;box-shadow:0 4px 18px rgba(0,0,0,.6);transition:.3s}
+.bundle-card:hover{transform:translateY(-6px);box-shadow:0 0 20px #3A5FCD}
+.bundle-card h3{margin-top:0;color:#C0C8D6}
+.price{font-size:2rem;color:#3A5FCD;margin:.5rem 0 1rem;font-family:'Bebas Neue',sans-serif}
+.matrix{overflow-x:auto;margin-top:2rem}
+.matrix table{width:100%;border-collapse:collapse}
+.matrix th,.matrix td{border:1px solid #1C1F26;padding:.75rem 1rem;text-align:center}
+.matrix th{background:#11141A;color:#C0C8D6}
+.matrix td{background:#0C0E12}
+
+
+/* Elderly Care Styles */
+.kicker{letter-spacing:.12em;text-transform:uppercase;color:#C0C8D6;font-size:.85rem;margin-bottom:.5rem}
+.sublead{color:#C0C8D6;max-width:68ch}
+.matrix-wrap{overflow-x:auto;margin-top:1.5rem;border:1px solid #1C1F26;border-radius:12px}
+.matrix{width:100%;border-collapse:collapse}
+.matrix th,.matrix td{padding:.85rem 1rem;border-bottom:1px solid #1C1F26;text-align:left}
+.matrix thead th{background:#0F1218;color:#C0C8D6;font-weight:700}
+.badge{display:inline-block;background:#0F1218;border:1px solid #1C1F26;border-radius:999px;padding:.25rem .6rem;margin-bottom:.5rem;color:#C0C8D6}
+.check{color:#3A5FCD;font-weight:700}
+.na{color:#6a7280}
+.pack-grid{display:grid;gap:2rem;margin-top:2rem}
+@media(min-width:760px){.pack-grid{grid-template-columns:repeat(3,1fr)}}
+.pack-card{background:#11141A;border:1px solid #1C1F26;border-radius:14px;padding:2rem;box-shadow:0 4px 18px rgba(0,0,0,.6);transition:.3s}
+.pack-card:hover{transform:translateY(-6px);box-shadow:0 0 20px #3A5FCD}
+.pack-title{font-family:'Bebas Neue',sans-serif;color:#C0C8D6;letter-spacing:.5px;margin:0 0 .25rem}
+.pack-price{font-family:'Bebas Neue',sans-serif;font-size:2rem;color:#3A5FCD;margin:.25rem 0 1rem}
+.faq{margin-top:3rem}
+details{background:#11141A;border:1px solid #1C1F26;border-radius:12px;padding:1rem 1.25rem;margin:.75rem 0}
+details[open]{box-shadow:0 0 12px rgba(58,95,205,.3)}
+details summary{cursor:pointer;color:#C0C8D6;font-weight:700}
