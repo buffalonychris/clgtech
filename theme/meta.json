@@ -1,0 +1,12 @@
+{
+  "title_template": "%s \u00b7 KickAss Home Automation",
+  "default_description": "Smart, secure, and human-friendly automation systems for Buffalo-area homes.",
+  "og": {
+    "type": "website",
+    "image": "/assets/og-default.jpg"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "image": "/assets/og-default.jpg"
+  }
+}

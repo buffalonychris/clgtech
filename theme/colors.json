@@ -1,0 +1,20 @@
+{
+  "light": {
+    "primary": "#C6A75E",
+    "accent": "#FFD36E",
+    "surface": "#FFFFFF",
+    "surface-alt": "#F6F6F8",
+    "text": "#121212",
+    "muted": "#5B5B5B",
+    "border": "#E6E6EA"
+  },
+  "dark": {
+    "primary": "#C6A75E",
+    "accent": "#E4C06B",
+    "surface": "#0D0E11",
+    "surface-alt": "#17191E",
+    "text": "#F3F4F6",
+    "muted": "#A8A8AD",
+    "border": "#2A2D35"
+  }
+}

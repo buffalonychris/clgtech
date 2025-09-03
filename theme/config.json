@@ -1,0 +1,15 @@
+{
+  "brand_name": "KickAss Home Automation",
+  "tagline": "May all of your journeys be KickAss!",
+  "phone": "+1 (###) ###-####",
+  "email": "info@kickasshomeautomation.com",
+  "address": "Buffalo, NY",
+  "social": {
+    "facebook": "https://facebook.com/kickasshomeautomation",
+    "instagram": "https://instagram.com/kickasshomeautomation",
+    "linkedin": "https://www.linkedin.com/company/kickass-home-automation"
+  },
+  "logo_light": "/assets/logo-light.png",
+  "logo_dark": "/assets/logo-dark.png",
+  "canonical_base": "https://www.kickasshomeautomation.com"
+}
