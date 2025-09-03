@@ -133,3 +133,11 @@ details summary{cursor:pointer;color:#C0C8D6;font-weight:700}
 .logo img{height:42px;width:auto;display:block;filter:drop-shadow(0 2px 2px rgba(0,0,0,.4))}
 @media(min-width:900px){.logo img{height:48px}}
 .hero-metal{background:radial-gradient(1200px 400px at 50% -20%, rgba(58,95,205,.22), transparent)}
+
+/* Learn & Ideas tile grid */
+.topic-grid{display:grid;gap:2rem;margin-top:1rem}
+@media(min-width:900px){.topic-grid{grid-template-columns:repeat(3,1fr)}}
+.topic-card{background:#11141A;border:1px solid #1C1F26;border-radius:14px;padding:1.25rem;box-shadow:0 4px 18px rgba(0,0,0,.6);transition:.3s}
+.topic-card:hover{transform:translateY(-6px);box-shadow:0 0 20px rgba(58,95,205,.45);border-color:#24304a}
+.topic-card h3{margin:.25rem 0 .5rem}
+.small{font-size:.95rem;color:#C0C8D6}
