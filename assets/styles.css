@@ -1,1 +1,26 @@
 /* base */ *{box-sizing:border-box} img{max-width:100%;display:block} a{color:inherit} body{line-height:1.6}
+
+/* === CLGTech: stop href debug text leaking on buttons/pills === */
+a.btn::after,
+a.button::after,
+a.pill::after,
+.button::after {
+  content: none !important;
+}
+
+/* === CLGTech: bigger brand logo with safe mobile scaling === */
+:root { --logo-size: 64px; }
+.header .brand img,
+.site-logo img,
+img.logo,
+.nav .logo img,
+.logo-img {
+  height: var(--logo-size);
+  width: auto;
+}
+.header { min-height: 80px; align-items: center; }
+.header nav a { line-height: 1; padding-top: .25rem; padding-bottom: .25rem; }
+@media (max-width: 480px) {
+  :root { --logo-size: 52px; }
+}
+

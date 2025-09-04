@@ -334,3 +334,29 @@ details summary{cursor:pointer;color:#C0C8D6;font-weight:700}
   text-align:center;
 }
 .hero .rotate-text span{ display:inline-block }
+
+
+/* === CLGTech: stop href debug text leaking on buttons/pills === */
+a.btn::after,
+a.button::after,
+a.pill::after,
+.button::after {
+  content: none !important;
+}
+
+/* === CLGTech: bigger brand logo with safe mobile scaling === */
+:root { --logo-size: 64px; }
+.header .brand img,
+.site-logo img,
+img.logo,
+.nav .logo img,
+.logo-img {
+  height: var(--logo-size);
+  width: auto;
+}
+.header { min-height: 80px; align-items: center; }
+.header nav a { line-height: 1; padding-top: .25rem; padding-bottom: .25rem; }
+@media (max-width: 480px) {
+  :root { --logo-size: 52px; }
+}
+
