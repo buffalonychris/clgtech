@@ -285,3 +285,52 @@ details summary{cursor:pointer;color:#C0C8D6;font-weight:700}
 /* Ideas landing layout helpers */
 .ideas-landing .container{max-width:1100px}
 .ideas-landing .topic-grid{row-gap:2.25rem}
+
+
+/* Learn landing layout helpers */
+.learn-landing .container{max-width:1100px}
+.learn-landing .topic-grid{row-gap:2.75rem}
+
+
+/* Pill bars: mobile scroll + snap */
+@media (max-width: 520px){
+  .ideas-nav, .learn-nav{
+    overflow-x:auto;
+    white-space:nowrap;
+    justify-content:flex-start;
+    padding-bottom:.25rem;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type:x mandatory;
+    gap:.5rem;
+  }
+  .ideas-nav .pill, .learn-nav .pill{
+    display:inline-block;
+    scroll-snap-align:center;
+    margin-right:.25rem;
+  }
+  /* optional: subtle scrollbar styling (WebKit) */
+  .ideas-nav::-webkit-scrollbar, .learn-nav::-webkit-scrollbar{height:6px}
+  .ideas-nav::-webkit-scrollbar-thumb, .learn-nav::-webkit-scrollbar-thumb{background:#24304a;border-radius:8px}
+}
+
+
+/* Hard-center the home rotate banner */
+.hero.hero-metal.container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  text-align:center;
+}
+.hero .rotate-text{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:.5rem;
+  flex-wrap:wrap;
+  width:100%;
+  max-width:90ch;
+  margin:1rem auto 0;
+  text-align:center;
+}
+.hero .rotate-text span{ display:inline-block }
