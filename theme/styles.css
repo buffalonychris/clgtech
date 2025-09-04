@@ -207,3 +207,13 @@ details summary{cursor:pointer;color:#C0C8D6;font-weight:700}
 .hero .rotator > *{ flex:0 0 auto; text-align:center }
 .hero .hero-headline{ text-align:center }
 .hero .cta-row{ justify-content:center }
+
+
+/* Larger spacing between Learn rows */
+.learn-tiles{ row-gap:3.5rem; }
+
+
+/* Learn article nav */
+.article-nav{display:flex;gap:1rem;margin-top:1.5rem;justify-content:space-between;flex-wrap:wrap}
+.article-nav .btn{margin:0}
+.article-nav .btn.ghost{background:transparent;border:1px solid #24304a}
