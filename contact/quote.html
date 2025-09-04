@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head><base href="/clgtech/"/>
-<meta charset="utf-8"/>
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="utf-8">
 <title>Request a Quote · CLGTech</title>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<link href="theme/styles.css" rel="stylesheet"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/clgtech/theme/styles.css">
 <style>
 .form-wrap{max-width:980px;margin:2rem auto;padding:1rem}
 .form-card{background:var(--panel);border:1px solid var(--panel-border);border-radius:16px;box-shadow:var(--elev-2)}
@@ -17,19 +16,20 @@
 </style>
 </head>
 <body class="theme-dark">
+
 <section class="container">
-<div class="breadcrumbs"><a href="index.html">Home</a> / <a href="/clgtech/contact/">Contact</a> / Request a Quote</div>
-<div class="form-wrap">
-<div class="form-card">
-<header>
-<h1>Request a Quote <span class="badge" id="planBadge" style="display:none"></span></h1>
-<p class="note">Fill out this short form and we’ll follow up to confirm scope, timeline, and budget. If you came from a package, your selection will display here.</p>
-</header>
-<div class="body">
-<iframe class="form-iframe" src="https://docs.google.com/forms/d/e/1FAIpQLScOe2EhAZfSYNhlXpZISxS_f75J3LKS7D8XCVCorkGeATkokw/viewform?embedded=true">Loading…</iframe>
-</div>
-</div>
-</div>
+  <div class="breadcrumbs"><a href="/clgtech/">Home</a> / <a href="/clgtech/contact/">Contact</a> / Request a Quote</div>
+  <div class="form-wrap">
+    <div class="form-card">
+      <header>
+        <h1>Request a Quote <span id="planBadge" class="badge" style="display:none"></span></h1>
+        <p class="note">Fill out this short form and we’ll follow up to confirm scope, timeline, and budget. If you came from a package, your selection will display here.</p>
+      </header>
+      <div class="body">
+        <iframe class="form-iframe" src="https://docs.google.com/forms/d/e/1FAIpQLScOe2EhAZfSYNhlXpZISxS_f75J3LKS7D8XCVCorkGeATkokw/viewform?embedded=true">Loading…</iframe>
+      </div>
+    </div>
+  </div>
 </section>
 <script>
 // Read ?plan=basic|plus|pro or ?package=… and show a badge
