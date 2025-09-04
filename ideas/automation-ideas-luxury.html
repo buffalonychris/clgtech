@@ -1,26 +1,111 @@
 <!doctype html>
-<html lang="en">
-<head>
+<html lang="en"><head>
   <base href="/clgtech/">
-  <title>Luxury Automation Ideas · KickAss Home Automation</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/styles.css" />
-  <link rel="stylesheet" href="/theme/styles.css" />
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CLGTech · Luxury Automation Ideas</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/clgtech/theme/styles.css">
+<style>
+header.sticky {position:sticky;top:0;z-index:1000;background:#0C0E12;}
+
+.hero h1 span {color:#3A5FCD;}
+.rotate-text {font-size:1.5rem;height:2rem;overflow:hidden;position:relative;}
+.rotate-text span {position:absolute;width:100%;opacity:0;animation:rotate 12s infinite;}
+.rotate-text span:nth-child(1){animation-delay:0s} .rotate-text span:nth-child(2){animation-delay:3s} .rotate-text span:nth-child(3){animation-delay:6s} .rotate-text span:nth-child(4){animation-delay:9s}
+@keyframes rotate{0%{opacity:0;transform:translateY(100%);}10%,25%{opacity:1;transform:translateY(0);}30%,100%{opacity:0;transform:translateY(-100%);}}
+.tiles{display:grid;gap:2rem;margin-top:3rem;}@media(min-width:760px){.tiles{grid-template-columns:repeat(3,1fr);}}
+.tile{background:#11141A;padding:2rem;border-radius:14px;box-shadow:0 4px 18px rgba(0,0,0,.6);transition:.3s;}
+.tile:hover{transform:translateY(-5px);box-shadow:0 0 20px #3A5FCD;}
+.stats{display:grid;gap:2rem;margin-top:3rem;}@media(min-width:760px){.stats{grid-template-columns:repeat(3,1fr);}}
+.stat{background:#11141A;padding:2rem;border-radius:14px;text-align:center;}
+.cta-section{text-align:center;padding:4rem 0;}
+</style>
 </head>
-<body data-theme="dark">
-  <div id="site-header"></div>
+<body>
+<header class="sticky">
+  <div class="container navbar">
+    <div class="logo"><img src="/clgtech/assets/logo.png" alt="CLGTech Logo" style="height:40px"></div>
+    <nav>
+      <a class="active" href="/clgtech/">Home</a>
+      <a href="/clgtech/learn/">Learn</a>
+      <a href="/clgtech/ideas/">Ideas</a>
+      <a href="/clgtech/packages.html">Packages</a>
+      <a href="/clgtech/elderly/">Elderly Care</a>
+      <a href="/clgtech/case-studies/">Case Studies</a>
+      <a href="/clgtech/elite/">Elite Vault</a>
+      <a href="/clgtech/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main class="container">
+  <h1>Luxury Automation Ideas</h1>
+  <section class="tiles">
+<article class="tile">
+  <h3>Whole‑Home Audio</h3>
+  <p>Synchronized, room‑by‑room music with effortless control.</p>
+</article>
+<article class="tile">
+  <h3>Automated Shades & Blinds</h3>
+  <p>Natural light control tied to sunrise/sunset and scenes.</p>
+</article>
+<article class="tile">
+  <h3>Pool & Spa Automation</h3>
+  <p>Heat, lights, and pumps controlled from your phone.</p>
+</article>
+<article class="tile">
+  <h3>Biometric Smart Locks</h3>
+  <p>Fingerprint recognition for seamless, secure entry.</p>
+</article>
+<article class="tile">
+  <h3>Integrated Home Theater</h3>
+  <p>Lights, projector, and sound on one perfect scene.</p>
+</article>
+<article class="tile">
+  <h3>Wine Cellar Monitoring</h3>
+  <p>Track temperature/humidity with alerts and history.</p>
+</article>
+</section>
+</main>
 
-  <main class="section"><div class="container">
-    <div class="kicker">Ideas</div>
-    <h1>Luxury Automation Ideas</h1>
-    <div class="grid-3"><div class="card"><h3>Spa Ready</h3><p>Pre-heat spa and towel rails from the car.</p></div><div class="card"><h3>Shade Symphony</h3><p>Whole-wall shades glide with sunrise timing.</p></div><div class="card"><h3>Hidden Theater</h3><p>Projector down, screen out, lights melt to 10%.</p></div></div>
-  </div></main>
+<section class="hero hero-metal container">
+  
+<div class="hero-logo">
+  <img src="/clgtech/assets/logo.png" alt="CLGTech">
+</div>
 
-  <div id="site-footer"></div>
-  <script src="/assets/nav-loader.js"></script>
-</body>
-</html>
+  <div class="rotate-text">
+    <span>Safer Homes</span>
+    <span>Smarter Living</span>
+    <span>Luxury Comfort</span>
+    <span>Proven Reliability</span>
+  </div>
+  <div class="cta-row center" style="margin-top:2rem;">
+    <a class="btn" href="/clgtech/packages.html">See Packages</a>
+    \1/clgtech/contact/quote.html\2
+  </div>
+</section>
+<section class="container">
+  <h2>What You Get</h2>
+  <div class="tiles">
+    <div class="tile"><h3>Security</h3><p>24/7 protection with smart, calm alerts.</p></div>
+    <div class="tile"><h3>Comfort</h3><p>Lighting, climate, and ambiance tuned to your life.</p></div>
+    <div class="tile"><h3>Entertainment</h3><p>Hidden hardware, cinematic results.</p></div>
+    <div class="tile"><h3>Energy Savings</h3><p>Automations that cut waste and costs.</p></div>
+    <div class="tile"><h3>Luxury Design</h3><p>Design that looks premium and feels invisible.</p></div>
+    <div class="tile"><h3>Pro Support</h3><p>Pro install, training, and ongoing support.</p></div>
+  </div>
+</section>
+<section class="container">
+  <h2>Why Choose CLGTech?</h2>
+  <div class="stats">
+    <div class="stat"><h3>24/7 Peace of Mind</h3><p>Reliable safety automations.</p></div>
+    <div class="stat"><h3>Trusted Partnerships</h3><p>We work with the best hardware vendors.</p></div>
+    <div class="stat"><h3>Customized Installs</h3><p>Tailored luxury for your home.</p></div>
+  </div>
+</section>
+<section class="cta-section">
+  <h2>Ready to Upgrade Your Home?</h2>
+  <a class="btn" href="/clgtech/contact.html">Contact Us Today</a>
+</section>
+<footer>© CLGTech Home Automation</footer>
+</body></html>
