@@ -334,3 +334,10 @@ details summary{cursor:pointer;color:#C0C8D6;font-weight:700}
   text-align:center;
 }
 .hero .rotate-text span{ display:inline-block }
+
+/* === Home hero tweaks (approved, consolidated) === */
+.hero { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; margin-bottom: 10px !important; }
+.hero-logo img { width: clamp(220px, 40vw, 640px); height: auto; display: block; margin-left: auto; margin-right: auto; }
+.tiles, .features { margin-top: 10px !important; }
+/* === End home hero tweaks === */
+
