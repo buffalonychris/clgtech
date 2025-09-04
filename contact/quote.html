@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><base href=""/>
+<head><base href="/clgtech/"/>
 <meta charset="utf-8"/>
 <title>Request a Quote · CLGTech</title>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
@@ -16,18 +16,9 @@
 .badge{display:inline-block;background:var(--accent);color:#0b1020;border-radius:999px;padding:.35rem .75rem;margin-left:.5rem;font-weight:600}
 </style>
 </head>
-<body class="theme-dark"><nav>
-<a href="/clgtech/">Home</a>
-<a href="/clgtech/learn/">Learn</a>
-<a href="/clgtech/ideas/">Ideas</a>
-<a href="/clgtech/packages.html">Packages</a>
-<a href="/clgtech/elderly/">Elderly Care</a>
-<a class="active" href="/clgtech/case-studies/">Case Studies</a>
-<a href="/clgtech/elite/">Elite Vault</a>
-<a href="/clgtech/contact.html">Contact</a>
-</nav>
+<body class="theme-dark">
 <section class="container">
-<div class="breadcrumbs"><a href="">Home</a> / <a href="contact.html">Contact</a> / Request a Quote</div>
+<div class="breadcrumbs"><a href="index.html">Home</a> / <a href="/clgtech/contact/">Contact</a> / Request a Quote</div>
 <div class="form-wrap">
 <div class="form-card">
 <header>
@@ -46,4 +37,4 @@ const u=new URL(location.href);
 const plan=u.searchParams.get('plan')||u.searchParams.get('package');
 if(plan){const b=document.getElementById('planBadge');b.textContent=(plan+'').replace(/\+/g,' ').replace(/%20/g,' ');b.style.display='inline-block';}
 </script>
-<footer>© CLGTech Home Automation</footer></body></html>
+</body></html>
