@@ -334,3 +334,35 @@ details summary{cursor:pointer;color:#C0C8D6;font-weight:700}
   text-align:center;
 }
 .hero .rotate-text span{ display:inline-block }
+
+/* === Homepage Hero Fixes (2025-09-04) === */
+.hero-logo img {
+  width: clamp(180px, 40vw, 640px);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Reduce top spacing above logo */
+.hero, .hero-inner {
+  padding-top: 10px !important;
+  margin-top: 10px !important;
+}
+
+/* Reduce space between rotating text and tiles */
+.hero {
+  margin-bottom: 10px !important;
+}
+.tiles, .features {
+  margin-top: 10px !important;
+}
+/* === End Fixes === */
+
+/* === Home hero tweaks (approved) === */
+.hero { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
+.hero-logo img { width: clamp(220px, 40vw, 640px); height: auto; display: block; margin-left: auto; margin-right: auto; }
+/* Keep tight spacing between rotating text and tiles */
+.hero { margin-bottom: 10px !important; }
+.tiles, .features { margin-top: 10px !important; }
+/* === End home hero tweaks === */
+
