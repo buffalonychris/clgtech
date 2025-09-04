@@ -224,3 +224,60 @@ details summary{cursor:pointer;color:#C0C8D6;font-weight:700}
 .ideas-nav .btn{background:#1c1f26;color:#c0c8d6;padding:.6rem 1.2rem;border-radius:8px;transition:.3s}
 .ideas-nav .btn:hover{background:#24304a;color:#fff}
 .ideas-nav .btn.active{background:var(--accent);color:#fff}
+
+
+/* Learn unified nav */
+.learn-nav{display:flex;gap:.5rem;margin:.75rem 0 1.25rem;flex-wrap:wrap;justify-content:center}
+.learn-nav .pill{display:inline-block;padding:.5rem .8rem;border:1px solid #24304a;border-radius:999px;color:#cbd6f1;background:transparent;transition:.25s;font-size:.92rem}
+.learn-nav .pill:hover{box-shadow:0 0 0 2px rgba(58,95,205,.3);transform:translateY(-1px)}
+.learn-nav .pill.active{background:var(--accent);border-color:var(--accent);color:#0b1020}
+
+
+/* === Phase 1: Hero lock & rotator centering === */
+.section.hero-metal.hero .container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  text-align:center;
+}
+.hero .hero-headline{ 
+  text-align:center; 
+  margin-left:auto; 
+  margin-right:auto; 
+}
+.hero .hero-logo{ 
+  display:flex; 
+  justify-content:center; 
+  align-items:center; 
+  margin:1rem auto 0; 
+}
+.hero .hero-logo img{ 
+  height:168px; 
+  width:auto; 
+  filter:drop-shadow(0 4px 8px rgba(0,0,0,.45)); 
+}
+@media (max-width:480px){ .hero .hero-logo img{ height:132px } }
+
+/* Rotator: kill absolute layout, center with flex */
+.hero .hero-rotator{
+  position:static !important;
+  display:flex !important;
+  flex-wrap:wrap;
+  justify-content:center !important;
+  align-items:center !important;
+  gap:.35rem;
+  width:100%;
+  max-width:90ch;
+  margin:0 auto;
+  text-align:center !important;
+}
+.hero .hero-rotator > *{ flex:0 0 auto; text-align:center }
+
+/* CTA row centering */
+.hero .cta-row{ 
+  display:flex; 
+  justify-content:center; 
+  gap:1rem; 
+}
+.center{ text-align:center; margin-left:auto; margin-right:auto; }
