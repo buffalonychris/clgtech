@@ -25,42 +25,139 @@
     <nav class="breadcrumb">
       <a href="/clgtech/">Home</a> / <a href="/clgtech/ideas/">Ideas</a> / <span>Advanced Ideas</span>
     </nav>
-    
   <h1>Advanced Ideas</h1>
   <div class="subnav tabs"><a class="pill" href="/clgtech/ideas/most-requested.html">Most Requested</a> <a class="pill" href="/clgtech/ideas/basic.html">Basic Ideas</a> <a class="pill active" href="/clgtech/ideas/advanced.html">Advanced Ideas</a> <a class="pill" href="/clgtech/ideas/luxury.html">Luxury Ideas</a> <a class="pill" href="/clgtech/ideas/all.html">All Ideas</a></div>
-  <section class="lead"><p>Smarter, context-aware automations that stitch devices into a system.</p></section>
-  <div class="cards-grid">
+  <section class="lead"><p>Smarter, context‑aware automations that stitch devices into a system.</p></section>
+  <div class="cards-grid tiles-grid">
     
-    <section class="card">
-      <h3>Presence & Energy</h3>
-      <ul><li>HVAC adjusts by geo + motion + window state</li>
-<li>Energy monitoring for HVAC/EV/washer/dryer</li>
-<li>Irrigation by forecast + soil moisture</li></ul>
+    <section class="card tile">
+      <div class="tile-head"><span class="pill">Presence & Energy</span></div>
+      <h3>Adaptive HVAC by Presence</h3>
+      <div class="meta">
+        <span class="chip"><strong>Trigger:</strong> Geo + motion + window state</span>
+        <span class="chip"><strong>Effort:</strong> Medium</span>
+      </div>
+      <h4>What happens</h4>
+      <ul class="bullets">
+        <li>Reduce runtime when rooms are empty</li>
+<li>Pause HVAC if window opens</li>
+<li>Recover smoothly when you return</li>
+      </ul>
+      <h4>Typical devices</h4>
+      <ul class="bullets">
+        <li>Thermostat</li>
+<li>Motion/door sensors</li>
+<li>Window sensors</li>
+      </ul>
     </section>
     
-
-    <section class="card">
-      <h3>Audio & Lighting</h3>
-      <ul><li>Multi-room audio scenes (Dinner, Party, Focus)</li>
-<li>Adaptive lighting: color temperature by time</li>
-<li>Quiet hours dimming rules</li></ul>
+    <section class="card tile">
+      <div class="tile-head"><span class="pill">Audio & Lighting</span></div>
+      <h3>Multi‑Room Audio Scenes</h3>
+      <div class="meta">
+        <span class="chip"><strong>Trigger:</strong> Dinner / Party / Focus</span>
+        <span class="chip"><strong>Effort:</strong> Medium</span>
+      </div>
+      <h4>What happens</h4>
+      <ul class="bullets">
+        <li>One‑tap music in selected zones</li>
+<li>Auto‑duck for phone calls</li>
+<li>Night mode limits bass after 9pm</li>
+      </ul>
+      <h4>Typical devices</h4>
+      <ul class="bullets">
+        <li>Amplifier/streamer</li>
+<li>Speakers</li>
+<li>Presence</li>
+      </ul>
     </section>
     
-
-    <section class="card">
-      <h3>Security Hardening</h3>
-      <ul><li>Randomized lights while Away</li>
-<li>Lock audit + failed code alerts</li>
-<li>Perimeter mode after sunset</li></ul>
+    <section class="card tile">
+      <div class="tile-head"><span class="pill">Lighting</span></div>
+      <h3>Adaptive Lighting by Time</h3>
+      <div class="meta">
+        <span class="chip"><strong>Trigger:</strong> Kelvin and brightness by hour</span>
+        <span class="chip"><strong>Effort:</strong> Low</span>
+      </div>
+      <h4>What happens</h4>
+      <ul class="bullets">
+        <li>Warm late evenings, neutral day, cool task lighting</li>
+<li>Sync with sunrise/sunset + offsets</li>
+<li>Gentle nightlights auto‑dim</li>
+      </ul>
+      <h4>Typical devices</h4>
+      <ul class="bullets">
+        <li>Tunable dimmers</li>
+<li>Sensors</li>
+<li>Time/sun data</li>
+      </ul>
+    </section>
+    
+    <section class="card tile">
+      <div class="tile-head"><span class="pill">Energy</span></div>
+      <h3>Appliance & EV Energy Watch</h3>
+      <div class="meta">
+        <span class="chip"><strong>Trigger:</strong> HVAC/EV/washer/dryer monitoring</span>
+        <span class="chip"><strong>Effort:</strong> Medium</span>
+      </div>
+      <h4>What happens</h4>
+      <ul class="bullets">
+        <li>Detect stuck-on loads</li>
+<li>Cost/week reports</li>
+<li>Cap charging until off‑peak</li>
+      </ul>
+      <h4>Typical devices</h4>
+      <ul class="bullets">
+        <li>Energy monitor</li>
+<li>Smart plug</li>
+<li>EVSE</li>
+      </ul>
+    </section>
+    
+    <section class="card tile">
+      <div class="tile-head"><span class="pill">Irrigation</span></div>
+      <h3>Smart Irrigation by Forecast</h3>
+      <div class="meta">
+        <span class="chip"><strong>Trigger:</strong> Forecast + soil moisture</span>
+        <span class="chip"><strong>Effort:</strong> Medium</span>
+      </div>
+      <h4>What happens</h4>
+      <ul class="bullets">
+        <li>Skip cycles when rain likely</li>
+<li>Extra watering during heat wave</li>
+<li>Seasonal adjustments automatically</li>
+      </ul>
+      <h4>Typical devices</h4>
+      <ul class="bullets">
+        <li>Soil sensor</li>
+<li>Controller</li>
+<li>Weather data</li>
+      </ul>
+    </section>
+    
+    <section class="card tile">
+      <div class="tile-head"><span class="pill">Security</span></div>
+      <h3>Away Hardening</h3>
+      <div class="meta">
+        <span class="chip"><strong>Trigger:</strong> After-sunset perimeter mode</span>
+        <span class="chip"><strong>Effort:</strong> Low</span>
+      </div>
+      <h4>What happens</h4>
+      <ul class="bullets">
+        <li>Randomized interior lights</li>
+<li>Lock audit & failed code alerts</li>
+<li>Auto-arm if nobody returns by 11pm</li>
+      </ul>
+      <h4>Typical devices</h4>
+      <ul class="bullets">
+        <li>Dimmers</li>
+<li>Locks</li>
+<li>Alarm panel</li>
+      </ul>
     </section>
     
   </div>
-  
-    <div class="page-nav">
-      <div class="left"><a class="btn" href="/clgtech/ideas/">Back to Ideas</a></div>
-      <div class="right"><a class="btn" href="/clgtech/ideas/luxury.html">Next →</a></div>
-    </div>
-    
+  <div class="page-nav"><div class="left"><a class="btn" href="/clgtech/ideas/">Back to Ideas</a></div><div class="right"><a class="btn" href="/clgtech/ideas/luxury.html">Next →</a></div></div>
 </main>
 <footer>© CLGTech Home Automation</footer>
 </body>
