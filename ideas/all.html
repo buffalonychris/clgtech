@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>All Ideas · CLGTech</title>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet"/>
-<link href="/clgtech/assets/styles.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Roboto:wght@300;400;700&amp;display=swap" rel="stylesheet"/>
 <link href="/clgtech/theme/styles.css" rel="stylesheet"/>
-</head>
+<style>
+/* Ideas local shim: keep the site header visible and offset content */
+.site-header { position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; }
+main.section.ideas { padding-top: var(--header-height, 88px); }
+</style></head>
 <body>
-
+<header class="sticky">
+<div class="container navbar">
+<div class="logo"><img alt="CLGTech Logo" src="/clgtech/assets/logo.png" style="height:40px"/></div>
+<nav>
+<a href="/clgtech/">Home</a>
+<a href="/clgtech/learn/">Learn</a>
+<a href="/clgtech/ideas/">Ideas</a>
+<a href="/clgtech/packages.html">Packages</a>
+<a class="active" href="/clgtech/elderly/">Elderly Care</a>
+<a href="/clgtech/case-studies/">Case Studies</a>
+<a href="/clgtech/elite/">Elite Vault</a>
+<a href="/clgtech/contact.html">Contact</a>
+</nav>
+</div>
+</header>
 <main class="section ideas">
   <nav class="breadcrumb"><a href="/clgtech/">Home</a> / <a href="/clgtech/ideas/">Ideas</a> / <span>All Ideas</span></nav>
   <h1>All Ideas</h1>
@@ -500,6 +514,6 @@
   </div>
   <div class="page-nav"><div class="left"><a class="btn" href="/clgtech/ideas/">Back to Ideas</a></div><div class="right"><span class="btn disabled">Next →</span></div></div>
 </main>
-
+<footer>© CLGTech Home Automation</footer>
 </body>
 </html>
